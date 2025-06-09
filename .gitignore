@@ -1,0 +1,11 @@
+*.exe
+*.out
+*.test
+vendor/
+.idea/
+*.iml
+.env
+build/
+dist/
+*~
+*.db
