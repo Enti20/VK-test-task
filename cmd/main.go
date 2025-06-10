@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/Enti20/VK-test-task/internal"
+	"github.com/Enti20/VK-test-task/internal/workerpool"
 	"time"
 )
 
 func main() {
 	// Создаем пул воркеров с буфером на 10 задач
-	pool := internal.NewWorkerPool(10)
+	pool := workerpool.NewWorkerPool(10)
 	pool.Start(3) // Запускаем пул с 3 воркерами
 
 	// Отправляем первые 10 задач
