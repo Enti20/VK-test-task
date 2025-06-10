@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Enti20/-VK-Golang--/internal"
+	"github.com/Enti20/VK-test-task/internal"
 	"time"
 )
 
